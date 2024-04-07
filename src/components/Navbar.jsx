@@ -17,8 +17,8 @@ export default function Navbar(){
         }
     }
     return(
-        <div>
-        <nav className="flex flex-row justify-between w-[95%] mx-auto mt-[2%]">
+        <div className='overflow-hidden'>
+        <nav className="flex flex-row justify-between w-[95%] mx-auto mt-[2%] ">
             <div className="w-[3.5rem] rounded-[50%] overflow-hidden ">
             <img src={require("./../images/logo.jpeg")}></img>
             </div>
@@ -34,7 +34,8 @@ export default function Navbar(){
             </div>
 
         </nav>
-        <div ref={ham}  className="w-[98%] h-[80vh] bottom-[4rem] bg-black relative z-[99] translate-x-[120%] ">
+
+        <div ref={ham}  className="w-[100%] h-[100vh] bottom-[4rem] bg-black z-[99] translate-x-[130%] top-[-0.5rem]">
             <div className="flex flex-col h-[60%] mr-[3rem] justify-between items-end">
                 <div onClick={hammenu} className="mt-[2rem] w-[2rem] h-[2rem]">
                     <div className="bg-white w-[2rem] h-[0.15rem] rounded-sm rotate-[45deg]"></div>
@@ -45,7 +46,7 @@ export default function Navbar(){
                 <a href="#" className="text-white font-abril text-[2rem]">Contact</a>
             </div>
         </div>
-
+        
         </div>
 
     );
