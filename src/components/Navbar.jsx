@@ -23,9 +23,9 @@ export default function Navbar(){
             <img src={require("./../images/logo.jpeg")}></img>
             </div>
             <div className=" flex-row justify-between h-full w-[25rem] my-auto md:flex hidden">
-                <a href="#" className="text-white font-abril text-[1.3rem]">Work</a>
-                <a href="#" className="text-white font-abril text-[1.3rem]">About</a>
-                <a href="#" className="text-white font-abril text-[1.3rem]">Contact</a>
+                <a href="#work" className="text-white font-abril text-[1.3rem]">Work</a>
+                <a href="#about" className="text-white font-abril text-[1.3rem]">About</a>
+                <a href="#contact" className="text-white font-abril text-[1.3rem]">Contact</a>
             </div>
             <div onClick={hammenu} className="md:hidden flex flex-col justify-between h-[1.5rem] mt-[1rem]">
                 <div className="bg-white w-[2rem] h-[0.15rem] rounded-sm"></div>

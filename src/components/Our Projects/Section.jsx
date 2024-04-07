@@ -26,8 +26,8 @@ export default function Section(){
     }
 
     return(
-        <div>
-            <p className='font-space text-white font-bold text-[3rem] leading-[3.5rem] m-[3rem]'><span className='text-yellow-400'>Latest</span><br/>Projects </p>
+        <div id='work'>
+            <p className='font-space text-white font-bold text-[3rem] leading-[3.5rem] m-[3rem] tracking-wide'><span className='text-yellow-400'>Latest</span><br/>Projects </p>
             <div className='flex flex-row justify-end min-w-full ' >
     <div className=' overflow-scroll lg:overflow-hidden flex flex-row w-[100%] lg:w-[60rem] mx-[0] no-scroll' ref={section} onScroll={scrolling}>
      <div className='relative'>   

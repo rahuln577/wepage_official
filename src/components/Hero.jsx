@@ -1,8 +1,8 @@
 export default function Hero()
 {
     return(
-        <div className="flex justify-center w-full  h-full items-center">
-        <div className="absolute top-[13rem] md:top-[10rem]  lg:w-[56rem] ">
+        <div className="flex justify-center w-full  items-center">
+        <div className="absolute top-[13rem] md:top-[12rem]  lg:w-[56rem] ">
         <div className="flex flex-col">
         <h1 className="text-white font-aclonica text-[3.2rem] sm:text-[4rem] md:text-[5rem] lg:text-[7rem] leading-[5rem] md:leading-[7rem]">Let's Create<br/><span className="flex flex-row">the look <div className=" flex flex-row">
         <div className="ml-[0.5rem] sm:ml-[3rem]">
