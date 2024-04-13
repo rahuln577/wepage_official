@@ -1,4 +1,5 @@
 import {useRef} from 'react'
+import Hero from './Hero'
 
 export default function Navbar(){
     const ham=useRef()
@@ -34,6 +35,7 @@ export default function Navbar(){
             </div>
 
         </nav>
+
 
         <div ref={ham}  className="w-[100%] h-[100vh] bottom-[4rem] bg-black relative z-[99] translate-x-[140%] ">
             <div className="flex flex-col h-[60%] mr-[3rem] justify-between items-end">
